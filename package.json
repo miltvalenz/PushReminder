@@ -1,0 +1,33 @@
+{
+  "name": "pushreminder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miltvalenz/PushReminder.git"
+  },
+  "keywords": [
+    "webhook",
+    "web",
+    "hook",
+    "reminder",
+    "node",
+    "mongo",
+    "github",
+    "git",
+    "js",
+    "javascript",
+    "push",
+    "notification"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miltvalenz/PushReminder/issues"
+  },
+  "homepage": "https://github.com/miltvalenz/PushReminder#readme"
+}
