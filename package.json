@@ -4,6 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "start": "nodemon app.js",
+    "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -29,5 +31,17 @@
   "bugs": {
     "url": "https://github.com/miltvalenz/PushReminder/issues"
   },
-  "homepage": "https://github.com/miltvalenz/PushReminder#readme"
+  "homepage": "https://github.com/miltvalenz/PushReminder#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.24",
+    "passport": "^0.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "nodemon": "^2.0.4"
+  }
 }
