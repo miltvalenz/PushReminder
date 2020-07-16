@@ -1,0 +1,22 @@
+// Require dependencies
+const express = require('express');
+const bodyParser = require('body-parser');
+
+// Initizaling express
+const app = express();
+
+const port = process.env.PORT || 4000;
+
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+
+app.get('/', (req, res) => {
+  res.send('Welcome to my API');
+});
+
+// Initializing http server
+app.server = app.listen(port, () => {
+  console.log('Running on port', port);
+});
+
+module.exports = app;
