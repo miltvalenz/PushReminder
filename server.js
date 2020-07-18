@@ -1,9 +1,14 @@
 // Require dependencies
 const express = require('express');
 const bodyParser = require('body-parser');
+const dotenv = require('dotenv');
 
-// Initizaling express
+/**
+ * Ititializations
+ */
 const app = express();
+dotenv.config();
+require('./src/db/database');
 
 const port = process.env.PORT || 4000;
 
